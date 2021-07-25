@@ -1,0 +1,73 @@
+.subscription-blok {
+  display: flex;
+  flex-direction: column;
+  margin-left: 84px;
+
+  &__label {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--primary-white-color);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  &__cell {
+    display: flex;
+  }
+
+  &__input {
+    width: 358px;
+    height: 50px;
+    padding: 0px;
+    padding-left: 16px;
+    margin-right: 12px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.15));
+    background-color: #2f303a;
+    outline: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: var(--primary-white-color);
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.6);
+    }
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background-color: var(--accent-color);
+    border: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    padding-left: 29px;
+    padding-top: 10px;
+    padding-right: 28px;
+    padding-bottom: 10px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: var(--primary-white-color);
+    text-align: center;
+    cursor: pointer;
+  }
+
+  &__icon {
+    display: flex;
+    margin-left: 10px;
+    fill: var(--primary-white-color);
+  }
+}
