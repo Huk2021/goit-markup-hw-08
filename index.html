@@ -19,16 +19,28 @@
 
     <!-- Шапка сайта -->
     <header class="header">
-        <div class="container">
-            <div class="container-nav">
+        <div class="header__container container">
+            <a class="logo link" href="./index.html"><span class="logo--span">Web</span>Studio</a>
+            
+                    <button class="menu__button"
+                            type="button" 
+                            aria-expanded="false" 
+                            aria-controls="menu-container" 
+                            data-menu-button>
+                        <svg  width="20" height="20" class="menu__icon" aria-label="Переключатель мобильного меню">
+                            <use class="icon-cross" href="./images/sprite.svg#icon-close_24px"></use>
+                            <use class="icon-menu" href="./images/sprite.svg#icon-menu_24px"></use>
+                        </svg>
+                    </button>
+                <div class="menu-container" id="menu-container" data-menu>
                 <nav class="navigation">
-                    <a class="logo link" href="./index.html"><span class="logo--span">Web</span>Studio</a>
-                    <ul class="menu-list list">
-                        <li class="menu-item"><a class="menu-link link current" href="./index.html">Студия</a></li>
-                        <li class="menu-item"><a class="menu-link link" href="./portfolio.html">Портфолио</a></li>
-                        <li class="menu-item"><a class="menu-link link" href="">Контакты</a></li>
+                    <ul class="menu_list list">
+                        <li class="menu_item"><a class="menu_link--current link current" href="./index.html">Студия</a></li>
+                        <li class="menu_item"><a class="menu_link link" href="./portfolio.html">Портфолио</a></li>
+                        <li class="menu_item"><a class="menu_link link" href="">Контакты</a></li>
                     </ul>
                 </nav>
+                <div class="menu__auth-nav">
                 <ul class="auth-nav list">
                     <li class="auth-nav__item">
                         <a class="auth-nav__link link" href="mailto:info@devstudio.com"><svg class="nav-svg" width="16"
@@ -43,7 +55,24 @@
                             </svg>+38 096 111 11 11</a></li>
 
                 </ul>
+                <!-- Social menu -->
+                <ul class="menu-social">
+                    <li class="menu-social__item">
+                        <a class="menu-social__link link" href="./">Instagram</a>
+                    </li>
+                    <li class="menu-social__item">
+                        <a class="menu-social__link link" href="./">Twitter</a>
+                    </li>
+                    <li class="menu-social__item">
+                        <a class="menu-social__link link" href="./">Facebook</a>
+                    </li>
+                    <li class="menu-social__item">
+                        <a class="menu-social__link link" href="./">Linkedin</a>
+                    </li>
+                </ul>
+                </div>
             </div>
+       
 
         </div>
     </header>
@@ -157,8 +186,25 @@
 
                 <ul class="team-link-list list">
                     <li class="team-link-list-item">
-                        <a class="team-link-list-link link" href=""><img src="./images/img-3.jpg" alt="Игорь Демьяненко"
-                                width="270" height="260" /></a>
+                        <picture class="team-img">
+                            <source srcset="
+                                        ./images/team/igor_480.jpg    1x,
+                                        ./images/team/igor_480@2x.jpg 2x"
+                                        
+                                         media="screen and (max-width:767px)"           
+                                         sizes="100vw"/>
+                            <source srcset="
+                                        ./images/team/igor_768.jpg  1x,
+                                        ./images/team/igor_768@2x.jpg   2x"
+                                        media="screen and (max-width:1199px)"
+                                        sizes="(min-width: 768px) 50vw, 100vw" />
+                            <source srcset="
+                                        ./images/team/igor_1200.jpg    1x,
+                                        ./images/team/igor_1200@2x.jpg 2x"
+                                        media="screen and (min-width:1200px)"
+                                        sizes="(min-width: 1200px) 25vw, 100vw" />
+                                <img class="team-photo" src="./images/team/igor.jpg" alt="Игорь Демьяненко" />
+                        </picture>
                         <div class="team-div">
                             <h3 class="team-subtitle">Игорь Демьяненко</h3>
                             <p class="profession" lang="en">Product Designer</p>
@@ -198,8 +244,24 @@
                         </div>
                     </li>
                     <li class="team-link-list-item">
-                        <a class="team-link-list-link link" href=""><img src="./images/img-4.jpg" alt="Ольга Репина"
-                                width="270" height="260" /></a>
+                        <picture class="team-img">
+                            <source srcset="
+                                        ./images/team/olga_480.jpg    1x,
+                                        ./images/team/olga_480@2x.jpg 2x" 
+                                        media="screen and (max-width:767px)"
+                                        sizes="100vw" />
+                            <source srcset="
+                                        ./images/team/olga_768.jpg      1x,
+                                        ./images/team/oklga_768@2x.jpg  2x"
+                                        media="screen and (max-width:1199px)"
+                                        sizes="(min-width: 768px) 50vw, 100vw" />
+                            <source srcset="
+                                        ./images/team/olga_1200.jpg    1x,
+                                        ./images/team/olga_1200@2x.jpg 2x" 
+                                        media="screen and (min-width:1200px)"
+                                        sizes="(min-width: 1200px) 25vw, 100vw" />
+                                <img class="team-photo" src="./images/team/olga.jpg" alt="Ольга Репина" />
+                        </picture>
                         <div class="team-div">
                             <h3 class="team-subtitle">Ольга Репина</h3>
                             <p class="profession" lang="en">Frontend Developer</p>
@@ -236,8 +298,24 @@
                         </div>
                     </li>
                     <li class="team-link-list-item">
-                        <a class="team-link-list-link link" href=""><img src="./images/img-5.jpg" alt="Николай Тарасов"
-                                width="270" height="260" /></a>
+                        <picture class="team-img">
+                            <source srcset="
+                                        ./images/team/nik_480.jpg    1x,
+                                        ./images/team/nik_480@2x.jpg 2x" 
+                                        media="screen and (max-width:767px)"
+                                        sizes="100vw" />
+                            <source srcset="
+                                        ./images/team/nik_768.jpg      1x,
+                                        ./images/team/nik_768@2x.jpg   2x" 
+                                        media="screen and (max-width:1199px)"
+                                        sizes="(min-width: 768px) 50vw, 100vw" />
+                            <source srcset="
+                                        ./images/team/nik_1200.jpg    1x,
+                                        ./images/team/nik_1200@2x.jpg 2x"
+                                        media="screen and (min-width:1200px)"
+                                        sizes="(min-width: 1200px) 25vw, 100vw" />
+                                <img src="./images/team/nik.jpg" alt="Николай Тарасов" />
+                        </picture>
                         <div class="team-div">
                             <h3 class="team-subtitle">Николай Тарасов</h3>
                             <p class="profession" lang="en">Marketing</p>
@@ -274,8 +352,24 @@
                         </div>
                     </li>
                     <li class="team-link-list-item">
-                        <a class="team-link-list-link link" href=""><img src="./images/img-6.jpg" alt="Михаил Ермаков"
-                                width="270" height="260" /></a>
+                        <picture class="team-img">
+                            <source srcset="
+                                        ./images/team/mih_480.jpg    1x,
+                                        ./images/team/mih_480@2x.jpg 2x" 
+                                        media="screen and (max-width:767px)"
+                                        sizes="100vw" />
+                            <source srcset="
+                                        ./images/team/mih_768.jpg      1x,
+                                        ./images/team/mih_768@2x.jpg   2x"
+                                        media="screen and (max-width:1199px)"
+                                        sizes="(min-width: 768px) 50vw, 100vw" />
+                            <source srcset="
+                                        ./images/team/mih_1200.jpg    1x,
+                                        ./images/team/mih_1200@2x.jpg 2x" 
+                                        media="screen and (min-width:1200px)"
+                                        sizes="(min-width: 1200px) 25vw, 100vw" />
+                                <img src="./images/team/mih.jpg" alt="Михаил Ермаков" />
+                        </picture>
                         <div class="team-div">
                             <h3 class="team-subtitle">Михаил Ермаков</h3>
                             <p class="profession" lang="en">UI Designer</p>
@@ -366,7 +460,7 @@
     </main>
     <!-- Футер -->
     <footer class="footer">
-        <div class="container">
+        <div class="footer__container container">
             <!-- <div class="footer-blok"> -->
             <div class="footer__blok">
                 <div class="footer__address-blok">
@@ -513,6 +607,7 @@
 
         </div>
     </div>
+    <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
 </body>
 

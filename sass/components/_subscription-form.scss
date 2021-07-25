@@ -1,27 +1,24 @@
 .subscription-blok {
-  display: flex;
-  flex-direction: column;
-  margin-left: 84px;
-
+  margin-bottom: 60px;
+  margin-top: 60px;
   &__label {
     font-size: 14px;
     font-weight: 700;
-    line-height: 1.14;
+    line-height: 1.17;
+    text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-white-color);
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-top: 20px;
   }
-  &__cell {
-    display: flex;
-  }
-
   &__input {
-    width: 358px;
+    width: 450px;
     height: 50px;
     padding: 0px;
-    padding-left: 16px;
-    margin-right: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    // padding-left: 16px;
+    // margin-right: 12px;
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
@@ -63,6 +60,7 @@
     color: var(--primary-white-color);
     text-align: center;
     cursor: pointer;
+    margin: 0 auto;
   }
 
   &__icon {
