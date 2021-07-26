@@ -99,7 +99,6 @@ section {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  margin-right: 93px;
 }
 
 .logo--span {
@@ -111,7 +110,6 @@ section {
   color: var(--primary-white-color);
   text-decoration: none;
   margin-bottom: 20px;
-  margin-right: 0;
 }
 
 .header__container {
@@ -529,7 +527,6 @@ section {
   margin-right: auto;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hero_480.jpg");
 }
 
@@ -548,6 +545,17 @@ section {
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 30px;
+}
+
+.hero-container {
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 480px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 118px;
+  padding-bottom: 118px;
 }
 
 .feature-list__title {
