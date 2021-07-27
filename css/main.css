@@ -443,6 +443,10 @@ section {
   fill: #ffffff;
 }
 
+.network {
+  padding-top: 0;
+}
+
 .network__link {
   color: var(--primary-white-color);
   background-color: rgba(255, 255, 255, 0.1);
@@ -496,6 +500,7 @@ section {
 
 .subscription-blok__input::placeholder {
   color: rgba(255, 255, 255, 0.6);
+  padding-left: 16px;
 }
 
 .subscription-blok__button {
@@ -922,6 +927,18 @@ section {
   margin-bottom: 20px;
 }
 
+@media screen and (min-width: 768px) {
+  .footer__blok {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .social {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
 .button-nav {
   display: flex;
   flex-wrap: wrap;
@@ -1035,5 +1052,24 @@ section {
 .work-list-link:hover .work-description {
   transform: translateY(0);
   opacity: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .button-nav {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .work-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+  }
+  .work-list-item {
+    flex-basis: calc((100% - 60px) / 2);
+    margin-left: 30px;
+    margin-top: 30px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
