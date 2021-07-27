@@ -1,3 +1,6 @@
+.clients {
+  padding-bottom: 60px;
+}
 .clients-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -10,17 +13,13 @@
 .clients-list {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 0;
+  margin-left: -30px;
+  margin-top: -30px;
 }
 .clients-item {
-  margin-right: 30px;
-  margin-bottom: 30px;
-  &:nth-child(2n) {
-    margin-right: 0px;
-  }
-  &:nth-last-child(-n + 2) {
-    margin-bottom: 0;
-  }
+  flex-basis: calc((100% - 60px) / 2);
+  margin-left: 30px;
+  margin-top: 30px;
 }
 .clients-link {
   display: flex;
@@ -45,5 +44,13 @@
   &:hover,
   &:focus {
     fill: var(--accent-color);
+  }
+}
+// Tablet
+@media screen and (min-width: 768px) {
+  .clients-item {
+    flex-basis: calc((100% - 90px) / 3);
+    margin-right: 30px;
+    margin-bottom: 30px;
   }
 }

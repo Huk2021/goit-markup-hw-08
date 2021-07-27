@@ -1,7 +1,7 @@
 .button-nav {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   justify-content: flex-start;
   & &-item:not(:last-child) {
     margin-right: 8px;
