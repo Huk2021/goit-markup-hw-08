@@ -551,6 +551,7 @@ section {
 }
 
 .hero {
+  max-width: 767px;
   background: #2f303a;
   text-align: center;
   background-position: 50% 50%;
@@ -579,19 +580,14 @@ section {
   margin-bottom: 30px;
 }
 
-.hero-container {
-  padding-left: 15px;
-  padding-right: 15px;
-  max-width: 767px;
-  height: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 118px;
-  padding-bottom: 118px;
+.hero .hero-container {
+  margin-top: 118px;
+  margin-bottom: 118px;
 }
 
 @media screen and (min-width: 768px) {
   .hero {
+    max-width: 1199px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero_768.jpg");
   }
 }
@@ -602,16 +598,9 @@ section {
   }
 }
 
-@media screen and (min-width: 768px) {
-  .hero-container {
-    max-width: 1199px;
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .hero {
     max-width: 1600px;
-    height: 600px;
     padding-top: 200px;
     padding-bottom: 200px;
     margin-left: auto;
