@@ -443,6 +443,7 @@ section {
 
 .network {
   padding-top: 0;
+  margin: 0;
 }
 
 .network__link {
@@ -462,7 +463,6 @@ section {
 
 .subscription-blok {
   margin-bottom: 60px;
-  margin-top: 60px;
 }
 
 .subscription-blok__label {
@@ -613,6 +613,8 @@ section {
   .hero-container {
     max-width: 1600px;
     height: 600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     padding-top: 200px;
     padding-bottom: 200px;
   }
@@ -967,6 +969,9 @@ section {
 }
 
 @media screen and (min-width: 1200px) {
+  .footer__container {
+    text-align: start;
+  }
   .footer__blok {
     display: flex;
     flex-wrap: nowrap;
