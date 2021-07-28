@@ -31,6 +31,7 @@
   }
 }
 .profession {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.17;
   text-align: center;
@@ -70,9 +71,12 @@
       margin-bottom: 50px;
     }
 
+    &-title {
+      font-size: 36px;
+    }
+
     &-link-list {
       display: flex;
-      // flex-wrap: inherit;
     }
     &-link-list-item {
       flex-basis: calc((100% - 120px) / 4);

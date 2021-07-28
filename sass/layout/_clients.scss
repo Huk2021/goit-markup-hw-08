@@ -51,10 +51,16 @@
   .clients-item {
     flex-basis: calc((100% - 90px) / 3);
   }
+  .clients-link {
+    width: 226px;
+  }
 }
 
 // Desktop
 @media screen and (min-width: 1200px) {
+  .clients-title {
+    font-size: 36px;
+  }
   .clients-list {
     align-items: center;
     flex-wrap: nowrap;
@@ -63,6 +69,5 @@
   .clients-link {
     display: flex;
     width: 170px;
-    height: 92px;
   }
 }

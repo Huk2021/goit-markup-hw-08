@@ -100,8 +100,6 @@ section {
   font-style: normal;
   color: #000000;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
@@ -114,6 +112,12 @@ section {
   color: var(--primary-white-color);
   text-decoration: none;
   margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  .logo {
+    font-size: 26px;
+  }
 }
 
 .header__container {
@@ -701,9 +705,6 @@ section {
 }
 
 @media screen and (min-width: 1200px) {
-  .promo {
-    padding-top: 0;
-  }
   .promo-title {
     color: var(--title-text-color);
     font-weight: 700;
@@ -784,6 +785,7 @@ section {
 }
 
 .profession {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.17;
   text-align: center;
@@ -815,6 +817,9 @@ section {
     font-size: 36px;
     line-height: 1.17;
     margin-bottom: 50px;
+  }
+  .team-title {
+    font-size: 36px;
   }
   .team-link-list {
     display: flex;
@@ -886,9 +891,15 @@ section {
   .clients-item {
     flex-basis: calc((100% - 90px) / 3);
   }
+  .clients-link {
+    width: 226px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
+  .clients-title {
+    font-size: 36px;
+  }
   .clients-list {
     align-items: center;
     flex-wrap: nowrap;
@@ -897,7 +908,6 @@ section {
   .clients-link {
     display: flex;
     width: 170px;
-    height: 92px;
   }
 }
 
