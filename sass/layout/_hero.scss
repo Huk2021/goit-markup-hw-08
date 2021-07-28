@@ -1,4 +1,3 @@
-//   MOBILE
 .hero {
   background: #2f303a;
   text-align: center;
@@ -12,7 +11,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("../../images/hero_480.jpg");
+    url("../images/hero_480.jpg");
   // 2x screens
   @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
@@ -21,7 +20,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../../images/hero_480@2x.jpg");
+      url("../images/hero_480@2x.jpg");
   }
   &__title {
     color: var(--primary-white-color);
@@ -53,7 +52,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../../images/hero_768.jpg");
+      url("../images/hero_768.jpg");
     // 2x screens
     @media screen and (min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
@@ -62,7 +61,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url("../../images/hero_768@2x.jpg");
+        url("../images/hero_768@2x.jpg");
     }
   }
 
