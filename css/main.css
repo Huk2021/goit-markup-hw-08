@@ -77,6 +77,7 @@ section {
 }
 
 .container {
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -565,6 +566,7 @@ section {
 
 .hero {
   max-width: 767px;
+  max-height: 400px;
   background: #2f303a;
   text-align: center;
   background-position: 50% 50%;
@@ -614,6 +616,7 @@ section {
 @media screen and (min-width: 1200px) {
   .hero {
     max-width: 1600px;
+    max-height: 600px;
     padding-top: 200px;
     padding-bottom: 200px;
     margin-left: auto;

@@ -160,19 +160,22 @@
                 <ul class="promo-link-list list">
                     <li class="promo-link-list-item">
                         <div class="promo-div">
-                            <img src="./images/img.jpg" alt="Пишет код" width="370" height="294" />
+                            <img srcset="./images/promo/desktop.jpg 1x, ./images/desktop.jpg 2x"
+                                 src="#" alt="Десктопные приложения" size="370px" />
                             <p class="promo-text"> Десктопные приложения </p>
                         </div>
                     </li>
                     <li class="promo-link-list-item">
                         <div class="promo-div">
-                            <img src="./images/img-1.jpg" alt="Создает дизайн" width="370" height="294" />
+                            <img srcset="./images/promo/mobile.jpg 1x, ./images/mobile.jpg 2x" 
+                                 src="#" alt="Мобильные приложения" size="370px" />
                             <p class="promo-text">Мобильные приложения</p>
                         </div>
                     </li>
                     <li class="promo-link-list-item">
                         <div class="promo-div">
-                            <img src="./images/img-2.jpg" alt="Тестирует игру" width="370" height="294" />
+                            <img srcset="./images/promo/design.jpg 1x, ./images/design.jpg 2x" 
+                                 src="#" alt="Дизайнерские решения" size="370px" />
                             <p class="promo-text">Дизайнерские решения</p>
                         </div>
                     </li>
@@ -189,23 +192,22 @@
                 <ul class="team-link-list list">
                     <li class="team-link-list-item">
                         <picture class="portfolio-img">
-                            <source srcset="
-                                        ./images/team/igor_480.jpg    1x,
-                                        ./images/team/igor_480@2x.jpg 2x"
-                                        
-                                         media="screen and (max-width:767px)"           
-                                         sizes="100vw"/>
-                            <source srcset="
-                                        ./images/team/igor_768.jpg  1x,
-                                        ./images/team/igor_768@2x.jpg   2x"
-                                        media="screen and (max-width:1199px)"
-                                        sizes="(min-width: 768px) 50vw, 100vw" />
-                            <source srcset="
-                                        ./images/team/igor_1200.jpg    1x,
-                                        ./images/team/igor_1200@2x.jpg 2x"
-                                        media="screen and (min-width:1200px)"
-                                        sizes="(min-width: 1200px) 25vw, 100vw" />
-                                <img class="team-photo" src="./images/team/igor.jpg" alt="Игорь Демьяненко" />
+                            <source media="(min-width: 1200px)"
+                                srcset="./images/team/igor_1200w.webp 1x, ./images/team/igor_1200@2xw.webp 2x"
+                                type="image/webp">
+                            <source media="(min-width: 1200px)"
+                                srcset="./images/team/igor_1200.jpg 1x, ./images/team/igor_1200@2x.jpg 2x 2x">
+                            
+                            <source media="(min-width: 768px)"
+                                srcset="./images/team/igor_768w.webp 1x, ./images/team/igor_768@2xw.webp 2x" type="image/webp">
+                            <source media="(min-width: 768px)"
+                                srcset="./images/team/igor_768.jpg 1x, ./images/team/igor_768@2x.jpg 2x">
+
+                            <source media="(min-width: 280px)" srcset="./images/team/igor_480w.webp 1x, ./images/team/igor_480@2xw.webp 2x"
+                                type="image/webp">
+                            <source media="(min-width: 280px)" srcset="./images/team/igor_480.jpg 1x, ./images/team/igor_480@2x.jpg 2x">
+                                                               
+                            <img class="team-photo" src="./images/team/igor_480.jpg" alt="Игорь Демьяненко" />
                         </picture>
                         <div class="team-div">
                             <h3 class="team-subtitle">Игорь Демьяненко</h3>
@@ -247,22 +249,18 @@
                     </li>
                     <li class="team-link-list-item">
                         <picture class="team-img">
-                            <source srcset="
-                                        ./images/team/olga_480.jpg    1x,
-                                        ./images/team/olga_480@2x.jpg 2x" 
-                                        media="screen and (max-width:767px)"
-                                        sizes="100vw" />
-                            <source srcset="
-                                        ./images/team/olga_768.jpg      1x,
-                                        ./images/team/olga_768@2x.jpg  2x"
-                                        media="screen and (max-width:1199px)"
-                                        sizes="(min-width: 768px) 50vw, 100vw" />
-                            <source srcset="
-                                        ./images/team/olga_1200.jpg    1x,
-                                        ./images/team/olga_1200@2x.jpg 2x" 
-                                        media="screen and (min-width:1200px)"
-                                        sizes="(min-width: 1200px) 25vw, 100vw" />
-                                <img class="team-photo" src="./images/team/olga.jpg" alt="Ольга Репина" />
+                            <source media="(min-width: 1200px)" srcset="./images/team/olga_1200w.webp 1x, ./images/team/olga_1200@2xw.webp 2x"
+                                type="image/webp">
+                            <source media="(min-width: 1200px)" srcset="./images/team/olga_1200.jpg 1x, ./images/team/olga_1200@2x.jpg 2x 2x">
+                            
+                            <source media="(min-width: 768px)" srcset="./images/team/olga_768w.webp 1x, ./images/team/olga_768@2xw.webp 2x"
+                                type="image/webp">
+                            <source media="(min-width: 768px)" srcset="./images/team/olga_768.jpg 1x, ./images/team/olga_768@2x.jpg 2x">
+                            
+                            <source media="(min-width: 280px)" srcset="./images/team/olga_480w.webp 1x, ./images/team/olga_480@2xw.webp 2x"
+                                type="image/webp">
+                            <source media="(min-width: 280px)" srcset="./images/team/olga_480.jpg 1x, ./images/team/olga_480@2x.jpg 2x">
+                                <img class="team-photo" src="./images/team/olga_480.jpg" alt="Ольга Репина" />
                         </picture>
                         <div class="team-div">
                             <h3 class="team-subtitle">Ольга Репина</h3>
@@ -301,22 +299,18 @@
                     </li>
                     <li class="team-link-list-item">
                         <picture class="team-img">
-                            <source srcset="
-                                        ./images/team/nik_480.jpg    1x,
-                                        ./images/team/nik_480@2x.jpg 2x" 
-                                        media="screen and (max-width:767px)"
-                                        sizes="100vw" />
-                            <source srcset="
-                                        ./images/team/nik_768.jpg      1x,
-                                        ./images/team/nik_768@2x.jpg   2x" 
-                                        media="screen and (max-width:1199px)"
-                                        sizes="(min-width: 768px) 50vw, 100vw" />
-                            <source srcset="
-                                        ./images/team/nik_1200.jpg    1x,
-                                        ./images/team/nik_1200@2x.jpg 2x"
-                                        media="screen and (min-width:1200px)"
-                                        sizes="(min-width: 1200px) 25vw, 100vw" />
-                                <img src="./images/team/nik.jpg" alt="Николай Тарасов" />
+                            <source media="(min-width: 1200px)" srcset="./images/team/nik_1200w.webp 1x, ./images/team/nik_1200@2xw.webp 2x"
+                                type="image/webp">
+                            <source media="(min-width: 1200px)" srcset="./images/team/nik_1200.jpg 1x, ./images/team/nik_1200@2x.jpg 2x 2x">
+                            
+                            <source media="(min-width: 768px)" srcset="./images/team/nik_768w.webp 1x, ./images/team/nik_768@2xw.webp 2x"
+                                type="image/webp">
+                            <source media="(min-width: 768px)" srcset="./images/team/nik_768.jpg 1x, ./images/team/nik_768@2x.jpg 2x">
+                            
+                            <source media="(min-width: 280px)" srcset="./images/team/nik_480w.webp 1x, ./images/team/nik_480@2xw.webp 2x"
+                                type="image/webp">
+                            <source media="(min-width: 280px)" srcset="./images/team/nik_480.jpg 1x, ./images/team/nik_480@2x.jpg 2x">
+                                <img src="./images/team/nik_480.jpg" alt="Николай Тарасов" />
                         </picture>
                         <div class="team-div">
                             <h3 class="team-subtitle">Николай Тарасов</h3>
@@ -355,21 +349,17 @@
                     </li>
                     <li class="team-link-list-item">
                         <picture class="team-img">
-                            <source srcset="
-                                        ./images/team/mih_480.jpg    1x,
-                                        ./images/team/mih_480@2x.jpg 2x" 
-                                        media="screen and (max-width:767px)"
-                                        sizes="100vw" />
-                            <source srcset="
-                                        ./images/team/mih_768.jpg      1x,
-                                        ./images/team/mih_768@2x.jpg   2x"
-                                        media="screen and (max-width:1199px)"
-                                        sizes="(min-width: 768px) 50vw, 100vw" />
-                            <source srcset="
-                                        ./images/team/mih_1200.jpg    1x,
-                                        ./images/team/mih_1200@2x.jpg 2x" 
-                                        media="screen and (min-width:1200px)"
-                                        sizes="(min-width: 1200px) 25vw, 100vw" />
+                            <source media="(min-width: 1200px)" srcset="./images/team/mih_1200w.webp 1x, ./images/team/mih_1200@2xw.webp 2x"
+                                type="image/webp">
+                            <source media="(min-width: 1200px)" srcset="./images/team/mih_1200.jpg 1x, ./images/team/mih_1200@2x.jpg 2x 2x">
+                            
+                            <source media="(min-width: 768px)" srcset="./images/team/mih_768w.webp 1x, ./images/team/mih_768@2xw.webp 2x"
+                                type="image/webp">
+                            <source media="(min-width: 768px)" srcset="./images/team/mih_768.jpg 1x, ./images/team/mih_768@2x.jpg 2x">
+                            
+                            <source media="(min-width: 280px)" srcset="./images/team/mih_480w.webp 1x, ./images/team/mih_480@2xw.webp 2x"
+                                type="image/webp">
+                            <source media="(min-width: 280px)" srcset="./images/team/mih_480.jpg 1x, ./images/team/mih_480@2x.jpg 2x">
                                 <img src="./images/team/mih.jpg" alt="Михаил Ермаков" />
                         </picture>
                         <div class="team-div">
