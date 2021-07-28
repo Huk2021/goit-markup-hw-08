@@ -60,22 +60,27 @@
   }
 }
 
-// // Desktop
-// @media screen and (min-width: 1200px) {
-//   .team {
-//     &-title {
-//       font-weight: 700;
-//       font-size: 36px;
-//       line-height: 1.17;
-//       margin-bottom: 50px;
-//     }
+// Desktop
+@media screen and (min-width: 1200px) {
+  .team {
+    &-title {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.17;
+      margin-bottom: 50px;
+    }
 
-//     &-link-list {
-//       display: flex;
-//       // flex-wrap: inherit;
-//     }
-//     &-link-list-item {
-//       flex-basis: calc((100% - 120px) / 4);
-//     }
-//   }
-// }
+    &-link-list {
+      display: flex;
+      // flex-wrap: inherit;
+    }
+    &-link-list-item {
+      flex-basis: calc((100% - 120px) / 4);
+    }
+    &-div {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      width: 270px;
+    }
+  }
+}

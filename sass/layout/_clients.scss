@@ -52,3 +52,17 @@
     flex-basis: calc((100% - 90px) / 3);
   }
 }
+
+// Desktop
+@media screen and (min-width: 1200px) {
+  .clients-list {
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .clients-link {
+    display: flex;
+    width: 170px;
+    height: 92px;
+  }
+}

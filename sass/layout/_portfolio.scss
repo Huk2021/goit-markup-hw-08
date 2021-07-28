@@ -133,3 +133,9 @@
     margin-top: 30px;
   }
 }
+// Desktop
+@media screen and (min-width: 1200px) {
+  .work-list-item {
+    flex-basis: calc((100% - 90px) / 3);
+  }
+}

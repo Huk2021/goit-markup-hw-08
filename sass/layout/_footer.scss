@@ -58,8 +58,23 @@
     flex-wrap: wrap;
     justify-content: space-around;
   }
-  .social {
-    margin-left: 0px;
-    margin-right: 0px;
+  // .network {
+  //   margin-left: 0px;
+  //   margin-right: 0px;
+  // }
+}
+// Desktop
+@media screen and (min-width: 1200px) {
+  .footer__blok {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+  }
+  .footer__address-blok {
+    display: block;
+  }
+
+  .footer__invitation-blok {
+    margin-left: 70px;
   }
 }
