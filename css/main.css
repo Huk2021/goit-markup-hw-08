@@ -264,22 +264,21 @@ section {
   .modal {
     max-width: 528px;
     height: 581px;
-    margin-top: 0;
-    margin-right: 0;
   }
 }
 
 .contact-form {
   display: flex;
   flex-direction: column;
-  width: 448px;
+  width: 370px;
   margin: 0 auto;
+  padding: 40px;
 }
 
 .form-head {
   font-weight: 700;
   font-size: 20px;
-  line-height: 1.15;
+  line-height: 1.5;
   text-align: center;
   font-style: normal;
   letter-spacing: 0.03em;
@@ -414,6 +413,15 @@ section {
   border-radius: 4px;
   cursor: pointer;
   margin-top: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .form-head {
+    line-height: 1.5;
+  }
+  .contact-form {
+    width: 448px;
+  }
 }
 
 .social {
