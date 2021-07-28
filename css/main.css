@@ -970,6 +970,10 @@ section {
   margin-bottom: 20px;
 }
 
+.footer__invitation-blok {
+  margin-bottom: 60px;
+}
+
 @media screen and (min-width: 768px) {
   .footer__blok {
     display: flex;
