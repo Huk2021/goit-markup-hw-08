@@ -33,7 +33,6 @@
     &:focus {
       color: var(--accent-color);
     }
-
     &__icon {
       width: 24px;
       height: 16px;
@@ -208,10 +207,10 @@
     }
   }
   .auth-nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    //   display: flex;
+    //   flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
 
     &__item {
       align-items: center;
@@ -270,8 +269,11 @@
   .auth-nav {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    // align-items: center;
     margin-left: auto;
+    display: flex;
+    justify-content: center;
+
     &__item {
       align-items: center;
       justify-content: center;
