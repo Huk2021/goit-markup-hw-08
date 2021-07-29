@@ -87,8 +87,8 @@
 .checkbox-label {
   margin-top: 20px;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 11.5px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   cursor: pointer;
@@ -147,5 +147,9 @@
   }
   .contact-form {
     width: 448px;
+  }
+  .checkbox-label {
+    font-size: 14px;
+    line-height: 1.71;
   }
 }
