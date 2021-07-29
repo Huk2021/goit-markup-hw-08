@@ -65,44 +65,7 @@
                         </li>
                     </ul>
                 </div>
-                <nav class="navigation">
-                    <ul class="menu_list list">
-                        <li class="menu_item"><a class="menu_link--current link current" href="./index.html">Студия</a></li>
-                        <li class="menu_item"><a class="menu_link link" href="./portfolio.html">Портфолио</a></li>
-                        <li class="menu_item"><a class="menu_link link" href="">Контакты</a></li>
-                    </ul>
-                </nav>
-                <div class="menu__auth-nav">
-                    <ul class="auth-nav list">
-                        <li class="auth-nav__item">
-                            <a class="auth-nav__link link" href="mailto:info@devstudio.com"><svg class="nav-svg" width="16"
-                                    height="12">
-                                    <use href="./images/sprite.svg#icon-mail"></use>
-                                </svg>info@devstudio.com</a>
-                        </li>
-    
-                        <li class="auth-nav__item"><a class="auth-nav__link link" href="tel:+380961111111"><svg
-                                    class="nav-svg" width="10" height="16">
-                                    <use href="./images/sprite.svg#icon-smartphone"></use>
-                                </svg>+38 096 111 11 11</a></li>
-    
-                    </ul>
-                    <!-- Social menu -->
-                    <ul class="menu-social">
-                        <li class="menu-social__item">
-                            <a class="menu-social__link link" href="./">Instagram</a>
-                        </li>
-                        <li class="menu-social__item">
-                            <a class="menu-social__link link" href="./">Twitter</a>
-                        </li>
-                        <li class="menu-social__item">
-                            <a class="menu-social__link link" href="./">Facebook</a>
-                        </li>
-                        <li class="menu-social__item">
-                            <a class="menu-social__link link" href="./">Linkedin</a>
-                        </li>
-                    </ul>
-                </div>
+               
             </div>
         <ul class="menu-list list">
             <li class="menu-item"><a class="menu-link link" href="./index.html">Студия</a></li>
@@ -147,24 +110,19 @@
                         <a class="work-list-link link" href="">
                             <div class="work-thumd">
                                 <picture class="work-list-img">
-                                    <source srcset="
-                                            ./images/portfolio/tehnokr_480.jpg    1x,
-                                            ./images/portfolio/tehnokr_480@2x.jpg  2x" 
-                                            media="screen and (max-width:767px)"           
-                                            sizes="100vw"/>
-                                            <!-- TABLET -->
-                                            <source srcset="
-                                                ./images/portfolio/tehnokr_768.jpg     1x,  
-                                                ./images/portfolio/tehnokr_768@2x.jpg  2x"
-                                                media="screen and (max-width:1119px)" 
-                                                sizes="100vw" />
-                                                <!--DESKTOP -->
-                                            <source srcset="
-                                                ./images/portfolio/tehnokr_1200.jpg     1x,  
-                                                ./images/portfolio/tehnokr_1200@2x.jpg  2x"
-                                                media="screen and (min-width:1200px)" 
-                                                sizes="100vw" />
-                                    <img src="./images/portfolio/tehnokr.jpg" alt="tehnokr" />
+                                <source media="(min-width: 1200px)" srcset="./images/portfolio/tehnokr_1200w.webp 1x, ./images/portfolio/tehnokr_1200@2xw.webp 2x"
+                                    type="image/webp">
+                                <source media="(min-width: 1200px)" srcset="./images/portfolio/tehnokr_1200.jpg 1x, ./images/portfolio/tehnokr_1200@2x.jpg 2x 2x">
+                                
+                                <source media="(min-width: 768px)" srcset="./images/portfolio/tehnokr_768w.webp 1x, ./images/portfolio/tehnokr_768@2xw.webp 2x"
+                                    type="image/webp">
+                                <source media="(min-width: 768px)" srcset="./images/portfolio/tehnokr_768.jpg 1x, ./images/portfolio/tehnokr_768@2x.jpg 2x">
+                                
+                                <source media="(min-width: 280px)" srcset="./images/portfolio/tehnokr_480w.webp 1x, ./images/portfolio/tehnokr_480@2xw.webp 2x"
+                                    type="image/webp">
+                                <source media="(min-width: 280px)" srcset="./images/portfolio/tehnokr_480.jpg 1x, ./images/portfolio/tehnokr_480@2x.jpg 2x">
+                                         
+                                    <img src="./images/portfolio/tehnokr_480.jpg" alt="tehnokr" />
                                     </picture>
                                 <p class="work-description">Технокряк это современная площадка распространения
                                     коронавируса.
@@ -181,22 +139,18 @@
                         <a class="work-list-link link" href="">
                             <div class="work-thumd">
                                 <picture class="work-list-img">
-                                    <source srcset="
-                                        ./images/portfolio/new-orlean_480.jpg  1x,
-                                        ./images/portfolio/new-orlean_480@2x.jpg  2x"
-                                        media="screen and (max-width:767px)" sizes="100vw" />
-                                    <!-- TABLET -->
-                                    <source srcset="
-                                        ./images/portfolio/new-orlean_768.jpg     1x,
-                                        ./images/portfolio/new-orlean_768@2x.jpg  2x"
-                                        media="screen and (max-width:1119px)" 
-                                        sizes="100vw" />
-                                    <!-- DESKTOP -->
-                                    <source srcset="
-                                        ./images/portfolio/new-orlean_1200.jpg     1x,
-                                        ./images/portfolio/new-orlean_1200@2x.jpg  2x"
-                                        media="screen and (min-width:1200px)" sizes="100vw" />
-                                    <img src="./images/portfolio/new-orlean.jpg" alt="new-orlean" />
+                                    <source media="(min-width: 1200px)" srcset="./images/portfolio/new-orlean_1200w.webp 1x, ./images/portfolio/new-orlean_1200@2xw.webp 2x"
+                                        type="image/webp">
+                                    <source media="(min-width: 1200px)" srcset="./images/portfolio/new-orlean_1200.jpg 1x, ./images/portfolio/new-orlean_1200@2x.jpg 2x 2x">
+                                    
+                                    <source media="(min-width: 768px)" srcset="./images/portfolio/new-orlean_768w.webp 1x, ./images/portfolio/new-orlean_768@2xw.webp 2x"
+                                        type="image/webp">
+                                    <source media="(min-width: 768px)" srcset="./images/portfolio/new-orlean_768.jpg 1x, ./images/portfolio/new-orlean_768@2x.jpg 2x">
+                                    
+                                    <source media="(min-width: 280px)" srcset="./images/portfolio/new-orlean_480w.webp 1x, ./images/portfolio/new-orlean_480@2xw.webp 2x"
+                                        type="image/webp">
+                                    <source media="(min-width: 280px)" srcset="./images/portfolio/new-orlean_480.jpg 1x, ./images/portfolio/new-orlean_480@2x.jpg 2x">
+                                    <img src="./images/portfolio/new-orlean_480.jpg" alt="new-orlean" />
                                 </picture>
                                 <p class="work-description">Технокряк это современная площадка распространения
                                     коронавируса.
@@ -213,21 +167,19 @@
                         <a class="work-list-link link" href="">
                             <div class="work-thumd">
                                 <picture class="work-list-img">
-                                    <source srcset="
-                                            ./images/portfolio/seafood_480.jpg    1x,
-                                            ./images/portfolio/seafood_480@2x.jpg  2x"
-                                        media="screen and (max-width:767px)" sizes="100vw" />
-                                        <!-- TABLET -->
-                                        <source srcset="
-                                            ./images/portfolio/seafood_768.jpg     1x,
-                                            ./images/portfolio/seafood_768@2x.jpg  2x"
-                                            media="screen and (max-width:1119px)" sizes="100vw" />
-                                        <!-- DESKTOP -->
-                                        <source srcset="
-                                            ./images/portfolio/seafood_1200.jpg     1x,
-                                            ./images/portfolio/seafood_1200@2x.jpg  2x"
-                                            media="screen and (min-width:1200px)" sizes="100vw" />
-                                    <img src="./images/portfolio/seafood.jpg" alt="seafood" />
+                                    <source media="(min-width: 1200px)"
+                                        srcset="./images/portfolio/seafood_1200w.webp 1x, ./images/portfolio/seafood_1200@2xw.webp 2x" type="image/webp">
+                                    <source media="(min-width: 1200px)"
+                                        srcset="./images/portfolio/seafood_1200.jpg 1x, ./images/portfolio/seafood_1200@2x.jpg 2x 2x">
+                                    
+                                    <source media="(min-width: 768px)"
+                                        srcset="./images/portfolio/seafood_768w.webp 1x, ./images/portfolio/seafood_768@2xw.webp 2x" type="image/webp">
+                                    <source media="(min-width: 768px)" srcset="./images/portfolio/seafood_768.jpg 1x, ./images/portfolio/seafood_768@2x.jpg 2x">
+                                    
+                                    <source media="(min-width: 280px)" srcset="./images/portfolio/seafood_480w.webp 1x, ./images/portfolio/seafood_480@2xw.webp 2x"
+                                        type="image/webp">
+                                    <source media="(min-width: 280px)" srcset="./images/portfolio/seafood_480.jpg 1x, ./images/portfolio/seafood_480@2x.jpg 2x">
+                                    <img src="./images/portfolio/seafood_480.jpg" alt="seafood" />
                                 </picture>
                                 <p class="work-description">Технокряк это современная площадка распространения
                                     коронавируса.
@@ -244,21 +196,18 @@
                         <a class="work-list-link link" href="">
                             <div class="work-thumd">
                                 <picture class="work-list-img">
-                                    <source srcset="
-                                        ./images/portfolio/prime_480.jpg    1x,
-                                        ./images/portfolio/prime_480@2x.jpg  2x"
-                                        media="screen and (max-width:767px)" sizes="100vw" />
-                                    <!-- TABLET -->
-                                    <source srcset="
-                                        ./images/portfolio/prime_768.jpg     1x,
-                                        ./images/portfolio/prime_768@2x.jpg  2x"
-                                        media="screen and (max-width:1119px)" sizes="100vw" />
-                                    <!-- DESKTOP -->
-                                    <source srcset="
-                                        ./images/portfolio/prime_1200.jpg     1x,
-                                        ./images/portfolio/prime_1200@2x.jpg  2x"
-                                        media="screen and (min-width:1200px)" sizes="100vw" />
-                                    <img src="./images/portfolio/prime.jpg" alt="prime" />
+                                <source media="(min-width: 1200px)" srcset="./images/portfolio/prime_1200w.webp 1x, ./images/portfolio/prime_1200@2xw.webp 2x"
+                                    type="image/webp">
+                                <source media="(min-width: 1200px)" srcset="./images/portfolio/prime_1200.jpg 1x, ./images/portfolio/prime_1200@2x.jpg 2x 2x">
+                                
+                                <source media="(min-width: 768px)" srcset="./images/portfolio/prime_768w.webp 1x, ./images/portfolio/prime_768@2xw.webp 2x"
+                                    type="image/webp">
+                                <source media="(min-width: 768px)" srcset="./images/portfolio/prime_768.jpg 1x, ./images/portfolio/prime_768@2x.jpg 2x">
+                                
+                                <source media="(min-width: 280px)" srcset="./images/portfolio/prime_480w.webp 1x, ./images/portfolio/prime_480@2xw.webp 2x"
+                                    type="image/webp">
+                                <source media="(min-width: 280px)" srcset="./images/portfolio/prime_480.jpg 1x, ./images/portfolio/prime_480@2x.jpg 2x">
+                                    <img src="./images/portfolio/prime_480.jpg" alt="prime" />
                                 </picture>
                                 <p class="work-description">Технокряк это современная площадка распространения
                                     коронавируса.
@@ -275,23 +224,18 @@
                         <a class="work-list-link link" href="">
                             <div class="work-thumd">
                             <picture class="work-list-img">
-                                <source srcset="
-                                        ./images/portfolio/boxes_480.jpg    1x,
-                                        ./images/portfolio/boxes_480@2x.jpg  2x"
-                                        media="screen and (max-width:767px)" sizes="100vw" />
-                                    <!-- TABLET -->
-                                    <source srcset="
-                                        ./images/portfolio/boxes_768.jpg     1x,
-                                        ./images/portfolio/boxes_768@2x.jpg  2x" 
-                                        media="screen and (max-width:1119px)"
-                                        sizes="100vw" />
-                                    <!-- DESKTOP -->
-                                    <source srcset="
-                                        ./images/portfolio/boxes_1200.jpg     1x,
-                                        ./images/portfolio/boxes_1200@2x.jpg  2x" 
-                                        media="screen and (min-width:1200px)"
-                                        sizes="100vw" />
-                                <img src="./images/portfolio/boxes.jpg" alt="boxes" />
+                                <source media="(min-width: 1200px)" srcset="./images/portfolio/boxes_1200w.webp 1x, ./images/portfolio/boxes_1200@2xw.webp 2x"
+                                    type="image/webp">
+                                <source media="(min-width: 1200px)" srcset="./images/portfolio/boxes_1200.jpg 1x, ./images/portfolio/boxes_1200@2x.jpg 2x 2x">
+                                
+                                <source media="(min-width: 768px)" srcset="./images/portfolio/boxes_768w.webp 1x, ./images/portfolio/boxes_768@2xw.webp 2x"
+                                    type="image/webp">
+                                <source media="(min-width: 768px)" srcset="./images/portfolio/boxes_768.jpg 1x, ./images/portfolio/boxes_768@2x.jpg 2x">
+                                
+                                <source media="(min-width: 280px)" srcset="./images/portfolio/boxes_480w.webp 1x, ./images/portfolio/boxes_480@2xw.webp 2x"
+                                    type="image/webp">
+                                <source media="(min-width: 280px)" srcset="./images/portfolio/boxes_480.jpg 1x, ./images/portfolio/boxes_480@2x.jpg 2x">
+                                <img src="./images/portfolio/boxes_480.jpg" alt="boxes" />
                             </picture>
                                 <p class="work-description">Технокряк это современная площадка распространения
                                     коронавируса.
@@ -308,24 +252,18 @@
                         <a class="work-list-link link" href="">
                             <div class="work-thumd">
                                 <picture class="work-list-img">
-                                    <source srcset="
-                                        ./images/portfolio/inspiration_480.jpg    1x,
-                                        ./images/portfolio/inspiration_480@2x.jpg  2x"
-                                        media="screen and (max-width:767px)" 
-                                        sizes="100vw" />
-                                <!-- TABLET -->
-                                <source srcset="
-                                        ./images/portfolio/inspiration_768.jpg     1x,
-                                        ./images/portfolio/inspiration_768@2x.jpg  2x" 
-                                        media="screen and (max-width:1119px)"
-                                        sizes="100vw" />
-                                <!-- DESKTOP -->
-                                <source srcset="
-                                        ./images/portfolio/inspiration_1200.jpg     1x,
-                                        ./images/portfolio/inspiration_1200@2x.jpg        2x" 
-                                        media="screen and (min-width:1200px)"
-                                    sizes="100vw" />
-                                    <img src="./images/portfolio/inspiration.jpg" alt="inspiration" />
+                                    <source media="(min-width: 1200px)" srcset="./images/portfolio/inspiration_1200w.webp 1x, ./images/portfolio/inspiration_1200@2xw.webp 2x"
+                                        type="image/webp">
+                                    <source media="(min-width: 1200px)" srcset="./images/portfolio/inspiration_1200.jpg 1x, ./images/portfolio/inspiration_1200@2x.jpg 2x 2x">
+                                    
+                                    <source media="(min-width: 768px)" srcset="./images/portfolio/inspiration_768w.webp 1x, ./images/portfolio/inspiration_768@2xw.webp 2x"
+                                        type="image/webp">
+                                    <source media="(min-width: 768px)" srcset="./images/portfolio/inspiration_768.jpg 1x, ./images/portfolio/inspiration_768@2x.jpg 2x">
+                                    
+                                    <source media="(min-width: 280px)" srcset="./images/portfolio/inspiration_480w.webp 1x, ./images/portfolio/inspiration_480@2xw.webp 2x"
+                                        type="image/webp">
+                                    <source media="(min-width: 280px)" srcset="./images/portfolio/inspiration_480.jpg 1x, ./images/portfolio/inspiration_480@2x.jpg 2x">
+                                    <img src="./images/portfolio/inspiration_480.jpg" alt="inspiration" />
                                 </picture>
                                 <p class="work-description">Технокряк это современная площадка распространения
                                     коронавируса.
@@ -342,21 +280,21 @@
                         <a class="work-list-link link" href="">
                             <div class="work-thumd">
                                 <picture class="work-list-img">
-                                    <source srcset="
-                                        ./images/portfolio/edition_480.jpg    1x,
-                                        ./images/portfolio/edition_480@2x.jpg  2x"
-                                        media="screen and (max-width:767px)" sizes="100vw" />
-                                <!-- TABLET -->
-                                    <source srcset="
-                                        ./images/portfolio/edition_768.jpg     1x,
-                                        ./images/portfolio/edition_768@2x.jpg  2x"
-                                        media="screen and (max-width:1119px)" sizes="100vw" />
-                                        <!-- DESKTOP -->
-                                    <source srcset="
-                                        ./images/portfolio/edition_1200.jpg     1x,
-                                        ./images/portfolio/edition_1200@2x.jpg  2x"
-                                        media="screen and (min-width:1200px)" sizes="100vw" />
-                                    <img src="./images/portfolio/edition.jpg" alt="edition" />
+                                <source media="(min-width: 1200px)"
+                                    srcset="./images/portfolio/edition_1200w.webp 1x, ./images/portfolio/edition_1200@2xw.webp 2x" type="image/webp">
+                                <source media="(min-width: 1200px)"
+                                    srcset="./images/portfolio/edition_1200.jpg 1x, ./images/portfolio/edition_1200@2x.jpg 2x 2x">
+                                
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/portfolio/edition_768w.webp 1x, ./images/portfolio/edition_768@2xw.webp 2x" type="image/webp">
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/portfolio/edition_768.jpg 1x, ./images/portfolio/edition_768@2x.jpg 2x">
+                                
+                                <source media="(min-width: 280px)" srcset="./images/portfolio/edition_480w.webp 1x, ./images/portfolio/edition_480@2xw.webp 2x"
+                                    type="image/webp">
+                                <source media="(min-width: 280px)"
+                                    srcset="./images/portfolio/edition_480.jpg 1x, ./images/portfolio/edition_480@2x.jpg 2x">
+                                    <img src="./images/portfolio/edition_480.jpg" alt="edition" />
                                 </picture>
                                 <p class="work-description">Технокряк это современная площадка распространения
                                     коронавируса.
@@ -373,21 +311,18 @@
                         <a class="work-list-link link" href="">
                             <div class="work-thumd">
                                 <picture class="work-list-img">
-                                    <source srcset="
-                                        ./images/portfolio/lab_480.jpg    1x,
-                                        ./images/portfolio/lab_480@2x.jpg  2x"
-                                        media="screen and (max-width:767px)" sizes="100vw" />
-                                    <!-- TABLET -->
-                                    <source srcset="
-                                        ./images/portfolio/lab_768.jpg     1x,
-                                        ./images/portfolio/lab_768@2x.jpg  2x"
-                                        media="screen and (max-width:1119px)" sizes="100vw" />
-                                    <!-- DESKTOP -->
-                                    <source srcset="
-                                        ./images/portfolio/lab_1200.jpg     1x,
-                                        ./images/portfolio/lab_1200@2x.jpg  2x"
-                                    media="screen and (min-width:1200px)" sizes="100vw" />
-                                    <img src="./images/portfolio/lab.jpg" alt="lab" />
+                                    <source media="(min-width: 1200px)" srcset="./images/portfolio/lab_1200w.webp 1x, ./images/portfolio/lab_1200@2xw.webp 2x"
+                                        type="image/webp">
+                                    <source media="(min-width: 1200px)" srcset="./images/portfolio/lab_1200.jpg 1x, ./images/portfolio/lab_1200@2x.jpg 2x 2x">
+                                    
+                                    <source media="(min-width: 768px)" srcset="./images/portfolio/lab_768w.webp 1x, ./images/portfolio/lab_768@2xw.webp 2x"
+                                        type="image/webp">
+                                    <source media="(min-width: 768px)" srcset="./images/portfolio/lab_768.jpg 1x, ./images/portfolio/lab_768@2x.jpg 2x">
+                                    
+                                    <source media="(min-width: 280px)" srcset="./images/portfolio/lab_480w.webp 1x, ./images/portfolio/lab_480@2xw.webp 2x"
+                                        type="image/webp">
+                                    <source media="(min-width: 280px)" srcset="./images/portfolio/lab_480.jpg 1x, ./images/portfolio/lab_480@2x.jpg 2x">
+                                    <img src="./images/portfolio/lab_480.jpg" alt="lab" />
                                 </picture>
                                 <p class="work-description">Технокряк это современная площадка распространения
                                     коронавируса.
@@ -404,22 +339,17 @@
                         <a class="work-list-link link" href="">
                             <div class="work-thumd">
                                 <picture class="work-list-img">
-                                    <source srcset="
-                                        ./images/portfolio/growing_480.jpg    1x,
-                                        ./images/portfolio/growing_480@2x.jpg  2x"
-                                        media="screen and (max-width:767px)" sizes="100vw" />
-                                    <!-- TABLET -->
-                                    <source srcset="
-                                        ./images/portfolio/growing_768.jpg     1x,
-                                        ./images/portfolio/growing_768@2x.jpg  2x" 
-                                        media="screen and (max-width:1119px)"
-                                        sizes="100vw" />
-                                    <!-- DESKTOP -->
-                                    <source srcset="
-                                        ./images/portfolio/growing_1200.jpg     1x,
-                                        ./images/portfolio/growing_1200@2x.jpg  2x" 
-                                        media="screen and (min-width:1200px)"
-                                        sizes="100vw" />
+                                <source media="(min-width: 1200px)" srcset="./images/portfolio/growing_1200w.webp 1x, ./images/portfolio/growing_1200@2xw.webp 2x"
+                                    type="image/webp">
+                                <source media="(min-width: 1200px)" srcset="./images/portfolio/growing_1200.jpg 1x, ./images/portfolio/growing_1200@2x.jpg 2x 2x">
+                                
+                                <source media="(min-width: 768px)" srcset="./images/portfolio/growing_768w.webp 1x, ./images/portfolio/growing_768@2xw.webp 2x"
+                                    type="image/webp">
+                                <source media="(min-width: 768px)" srcset="./images/portfolio/growing_768.jpg 1x, ./images/portfolio/growing_768@2x.jpg 2x">
+                                
+                                <source media="(min-width: 280px)" srcset="./images/portfolio/growing_480w.webp 1x, ./images/portfolio/growing_480@2xw.webp 2x"
+                                    type="image/webp">
+                                <source media="(min-width: 280px)" srcset="./images/portfolio/growing_480.jpg 1x, ./images/portfolio/growing_480@2x.jpg 2x">
                                     <img src="./images/portfolio/growing.jpg" alt="growing-business" />
                                 </picture>
                                 <p class="work-description">Технокряк это современная площадка распространения

@@ -582,7 +582,7 @@ section {
     padding-left: 40px;
   }
   .mobile-navigation {
-    margin-bottom: 120px;
+    margin-bottom: 150px;
   }
   .mobile_item {
     padding-bottom: 32px;
@@ -596,10 +596,13 @@ section {
     margin-bottom: 30px;
   }
   .mobile-contact {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
   }
   .mobile-contact__item {
     padding-bottom: 30px;
+  }
+  .current {
+    color: var(--accent-color);
   }
   .mobile-tel__link {
     color: var(--accent-color);
@@ -618,6 +621,7 @@ section {
   .mobile-menu-social {
     display: flex;
     justify-content: start;
+    margin-top: 20px;
   }
   .mobile-menu-social__link {
     color: var(--accent-color);
@@ -713,6 +717,41 @@ section {
   .nav-svg .nav-svg:hover,
   .nav-svg .nav-svg:focus {
     fill: var(--accent-color);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logo {
+    margin-left: 215px;
+  }
+  .header__container {
+    justify-content: unsafe;
+  }
+  .menu-list {
+    margin-left: 93px;
+  }
+  .menu-list .menu-item:not(:last-child) {
+    margin-right: 50px;
+  }
+  .auth-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+  }
+  .auth-nav__item {
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+  }
+  .auth-nav__item:first-child {
+    margin-left: 0px;
+  }
+  .auth-nav__link {
+    line-height: 1.17;
+  }
+  .nav-svg {
+    margin-right: 10px;
   }
 }
 
@@ -1149,7 +1188,7 @@ section {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) and (min-width: 1200px) {
   .footer__container {
     text-align: start;
   }
@@ -1163,6 +1202,12 @@ section {
   }
   .footer__invitation-blok {
     margin-left: 70px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .futer-logo {
+    margin-left: 0;
   }
 }
 
