@@ -636,7 +636,7 @@ section {
     display: none;
   }
   .header__container {
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
   }
@@ -678,6 +678,7 @@ section {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .auth-nav {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -715,7 +716,7 @@ section {
 
 @media screen and (min-width: 1200px) {
   .logo {
-    margin-left: 215px;
+    margin-left: 100px;
   }
   .header__container {
     justify-content: unsafe;
