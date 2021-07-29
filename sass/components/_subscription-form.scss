@@ -12,7 +12,7 @@
     margin-top: 20px;
   }
   &__input {
-    width: 100%;
+    max-width: 450px;
     height: 50px;
     padding: 0px;
     margin-top: 20px;
@@ -70,9 +70,27 @@
     fill: var(--primary-white-color);
   }
 }
-// Desktop
+// Tablet
 @media screen and (min-width: 768px) {
   .subscription-blok__input {
     width: 356px;
+  }
+}
+// Desktop
+@media screen and (min-width: 1200px) {
+  .subscription-blok {
+    display: flex;
+    flex-direction: column;
+    margin-left: 84px;
+    &__cell {
+      display: flex;
+      align-items: center;
+    }
+    &__button {
+      margin-left: 12px;
+    }
+    &__label {
+      text-align: start;
+    }
   }
 }
