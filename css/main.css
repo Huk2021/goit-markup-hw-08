@@ -498,6 +498,12 @@ section {
   fill: var(--primary-white-color);
 }
 
+@media screen and (min-width: 768px) {
+  .subscription-blok__input {
+    width: 356px;
+  }
+}
+
 .portfolio-header {
   border-bottom: 1px solid #ececec;
 }
@@ -1213,7 +1219,7 @@ section {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .futer-logo {
     margin-left: 0;
   }
