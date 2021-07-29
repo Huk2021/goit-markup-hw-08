@@ -774,8 +774,8 @@ section {
   margin-bottom: 30px;
 }
 
-.hero .hero-container {
-  margin-top: 118px;
+.hero-container {
+  margin-top: 65px;
   margin-bottom: 118px;
 }
 
@@ -812,6 +812,9 @@ section {
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
+  }
+  .hero-container {
+    margin-top: 0;
   }
 }
 
