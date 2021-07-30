@@ -427,10 +427,6 @@ section {
   fill: var(--primary-white-color);
 }
 
-.subscription-blok {
-  margin-bottom: 60px;
-}
-
 .subscription-blok__label {
   font-size: 14px;
   font-weight: 700;
@@ -614,9 +610,9 @@ section {
     min-height: 200px;
     padding-top: 48px;
     padding-left: 40px;
-  }
-  .mobile-navigation {
-    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .mobile_item {
     padding-bottom: 32px;
@@ -638,6 +634,11 @@ section {
   .current {
     color: var(--accent-color);
   }
+  .mobile-contact_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
   .mobile-tel__link {
     color: var(--accent-color);
     font-weight: 500;
@@ -655,7 +656,6 @@ section {
   .mobile-menu-social {
     display: flex;
     justify-content: start;
-    margin-top: 20px;
   }
   .mobile-menu-social__link {
     color: var(--accent-color);
@@ -753,9 +753,6 @@ section {
 }
 
 @media screen and (min-width: 1200px) {
-  .logo {
-    margin-left: 100px;
-  }
   .header__container {
     justify-content: unsafe;
   }
@@ -908,6 +905,12 @@ section {
     margin-left: -30px;
     margin-top: -30px;
   }
+  .feature-list__description {
+    padding-bottom: 0;
+  }
+  .feature-list__title {
+    text-align: left;
+  }
   .feature-list__item {
     flex-basis: calc((100% - 60px) / 2);
     margin-left: 30px;
@@ -1044,6 +1047,7 @@ section {
     flex-basis: calc((100% - 60px) / 2);
     margin-left: 30px;
     margin-top: 30px;
+    margin-bottom: 0;
   }
   .team-div {
     padding-top: 30px;
@@ -1073,10 +1077,6 @@ section {
     padding-bottom: 30px;
     width: 270px;
   }
-}
-
-.clients {
-  padding-bottom: 60px;
 }
 
 .clients-title {
@@ -1223,7 +1223,7 @@ section {
   }
 }
 
-@media screen and (min-width: 768px) and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .footer__container {
     text-align: start;
   }
@@ -1238,11 +1238,11 @@ section {
   .footer__invitation-blok {
     margin-left: 60px;
   }
-}
-
-@media screen and (min-width: 768px) {
   .futer-logo {
     margin-left: 0;
+  }
+  .footer__list-item:last-child {
+    margin-bottom: 0px;
   }
 }
 
@@ -1367,6 +1367,10 @@ section {
     justify-content: center;
     margin-bottom: 30px;
   }
+  .button-nav .button-nav-item:not(:last-child) {
+    margin-right: 8px;
+    margin-bottom: 0;
+  }
   .work-list {
     display: flex;
     flex-wrap: wrap;
@@ -1377,6 +1381,9 @@ section {
     flex-basis: calc((100% - 60px) / 2);
     margin-left: 30px;
     margin-top: 30px;
+  }
+  .work-list-item:not(:last-child) {
+    margin-bottom: 0;
   }
 }
 
