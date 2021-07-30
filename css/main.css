@@ -1381,6 +1381,15 @@ section {
     flex-basis: calc((100% - 60px) / 2);
     margin-left: 30px;
     margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .work-list-link {
+    display: flex;
+    flex-direction: column;
+  }
+  .border-list {
+    flex-grow: 1;
   }
   .work-list-item:not(:last-child) {
     margin-bottom: 0;
