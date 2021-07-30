@@ -563,6 +563,8 @@ section {
   }
   .mobile-menu {
     position: fixed;
+    display: flex;
+    justify-content: space-between;
     z-index: 100;
     left: 0;
     top: 0;
