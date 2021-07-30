@@ -616,7 +616,7 @@ section {
     flex-direction: column;
     justify-content: space-between;
   }
-  .mobile_item {
+  .mobile_list .mobile_item:not(:last-child) {
     padding-bottom: 32px;
   }
   .mobile_link {
@@ -627,10 +627,7 @@ section {
     letter-spacing: 0.02em;
     margin-bottom: 30px;
   }
-  .mobile-contact {
-    margin-bottom: 60px;
-  }
-  .mobile-contact__item {
+  .mobile-contact__item:not(:last-child) {
     padding-bottom: 30px;
   }
   .current {

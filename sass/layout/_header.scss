@@ -110,9 +110,12 @@
   // .mobile-navigation {
   //   margin-bottom: 150px;
   // }
-  .mobile_item {
-    padding-bottom: 32px;
+  .mobile_list {
+    .mobile_item:not(:last-child) {
+      padding-bottom: 32px;
+    }
   }
+
   .mobile_link {
     color: var(--title-text-color);
     font-weight: 500;
@@ -123,8 +126,7 @@
   }
 
   .mobile-contact {
-    margin-bottom: 60px;
-    &__item {
+    &__item:not(:last-child) {
       padding-bottom: 30px;
     }
   }
